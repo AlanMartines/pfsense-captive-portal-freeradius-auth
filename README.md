@@ -54,6 +54,16 @@ Este projeto é uma solução de **Autocadastro em Etapa Única** para o Captive
 | `sql/cui.sql` | Estrutura da tabela para Chargeable User Identity. |
 | `sql/wimax.sql` | Estrutura da tabela para WiMAX. |
 
+## 📦 Dependências e Instalação do Sistema
+
+Para que o sistema suporte o banco de dados e a autenticação, execute os seguintes comandos no terminal do pfSense (SSH ou Diagnostics):
+
+* **Instalação do driver PHP:** `pkg install php82-mysqli`.
+* **Instalação do FreeRADIUS:** Recomenda-se via **System > Package Manager**, buscando por `freeradius3`.
+* **Instalação do FreeRADIUS via terminal:** `pkg install pfSense-pkg-freeradius3`.
+* **Configuração de Rede:** O cliente deve usar o IP do pfSense como DNS para que o redirecionamento funcione.
+
+
 ## 🗄️ Banco de Dados (SQL)
 
 #### Sequência de Comandos para Importação
