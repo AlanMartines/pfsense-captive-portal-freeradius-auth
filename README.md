@@ -82,4 +82,4 @@ mysql -u root -p radius < sql/wimax.sql;
 ## 🔗 Referências Originais
 
 * **Repositório Base:** [deajan/pfSense-cp-auth-onestep](https://github.com/deajan/pfSense-cp-auth-onestep)
-* **Tutorial de Instalação (Base):** [Assista no YouTube](https://www.youtube.com/watch?v=N7LmJrzi9Wg)
+* **Tutorial de Instalação (Base):** [Pfsense 2.7 - Captive portal - Autocadastro e freeradius](https://www.youtube.com/watch?v=N7LmJrzi9Wg)
